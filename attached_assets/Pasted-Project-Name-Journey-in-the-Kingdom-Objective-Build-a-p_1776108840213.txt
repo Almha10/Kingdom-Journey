@@ -1,0 +1,271 @@
+Project Name:
+"رحلة في المملكة" (Journey in the Kingdom)
+
+Objective:
+Build a premium, cinematic, and highly interactive website that showcases Saudi Arabia as a rich cultural, historical, and modern destination. The platform should educate, inspire, and guide both tourists and Saudi locals through an immersive digital journey across the Kingdom.
+
+Core Idea:
+The website is not just informational — it is an experience.
+Users should feel like they are exploring Saudi Arabia through a digital journey that combines:
+- Heritage and history
+- Tourism and destinations
+- Modern achievements and mega projects
+- Cultural identity of each region
+
+--------------------------------------------------
+
+🌙 DESIGN SYSTEM (VERY IMPORTANT)
+
+Theme:
+- Dark, elegant, cinematic
+
+Color Palette:
+- Primary: Saudi Green gradients (#006C35 → #00A651)
+- Secondary: Earthy desert browns (#3E2F1C → #8B6B3E)
+- Background: Deep black / charcoal (#0B0B0B / #121212)
+- Text: White (#FFFFFF) with soft opacity variations
+- Accent: subtle glow green highlights
+
+Visual Style:
+- Glassmorphism cards
+- Soft shadows and glowing edges
+- Smooth gradients
+- Clean Arabic-first typography
+- Luxurious and futuristic look
+
+--------------------------------------------------
+
+🎬 HERO SECTION (FIRST IMPRESSION)
+
+Create a cinematic fullscreen hero section with:
+
+- Animated map of Saudi Arabia
+- Smooth zoom-in animation into regions
+- Parallax background movement
+- Subtle particle or glow effects
+
+Main Title (Arabic):
+"رحلة في المملكة"
+
+Subheading:
+"اكتشف أرضًا تجمع بين عراقة الماضي وطموح المستقبل"
+
+Welcome Text (creative & emotional):
+"ابدأ رحلتك في قلب المملكة العربية السعودية،
+حيث تمتد جذور التاريخ عميقًا،
+وتزدهر المشاريع برؤية لا تعرف المستحيل."
+
+CTA Buttons:
+- "ابدأ رحلتك"
+- "استكشف المناطق"
+
+--------------------------------------------------
+
+🗺️ REGIONS EXPLORER
+
+- Interactive map or animated cards grid
+- Each region clickable
+- Smooth hover animations + glow effects
+
+Regions to include:
+- Riyadh
+- Jeddah
+- AlUla
+- Qassim
+- Asir
+- Tabuk
+- Eastern Province
+- Makkah
+- Madinah
+
+Each region preview shows:
+- Name
+- Short identity line
+- Background image
+
+--------------------------------------------------
+
+📍 REGION DETAIL PAGE
+
+Each region must include:
+
+1. Identity Section:
+- Short poetic description
+- Cultural uniqueness
+
+2. Tourist Destinations:
+Examples:
+- Jeddah → Red Sea, beaches, waterfront
+- AlUla → Elephant Rock, Hegra
+- Qassim → dates, palm farms
+- Asir → mountains and fog
+
+3. Historical Landmarks:
+- Important sites
+- Heritage explanation
+
+4. Modern Projects:
+- Vision 2030 projects such as:
+  - NEOM
+  - Red Sea Project
+  - Diriyah Gate
+  - Qiddiya
+
+5. Image Gallery:
+- Hero image
+- 3–6 images per region
+- Slider + lightbox + hover zoom
+
+6. “Did You Know?”:
+- Educational cultural facts
+
+--------------------------------------------------
+
+🧭 FEATURE: "رحلتي في المملكة" (Interactive Journey Builder)
+
+This is a core feature.
+
+Allow the user to:
+- Choose travel interest:
+  (Culture, Adventure, Relaxation, Nature, History, Family)
+- Choose duration:
+  (3 days, 7 days, 10 days)
+
+System generates:
+- A personalized travel route across Saudi Arabia
+- Animated map path
+- Highlighted destinations
+
+Each stop includes:
+- Image
+- Short description
+- Suggested activity
+- Cultural tip
+
+Make the experience immersive and visually engaging.
+
+--------------------------------------------------
+
+🏆 GAMIFICATION SYSTEM
+
+Add a premium achievement system:
+
+Achievements:
+- مستكشف مبتدئ (3 regions)
+- عاشق التراث (heritage exploration)
+- مغامر الصحراء
+- خبير المملكة
+- سفير المملكة
+
+Features:
+- Progress bar
+- Unlock animations
+- Badge system
+- Explorer level system
+
+Make it elegant and not childish.
+
+--------------------------------------------------
+
+🎓 EDUCATIONAL LAYER
+
+Include:
+- Cultural insights
+- Travel tips
+- Etiquette notes for tourists
+- Quick learning cards
+- Facts about regions and projects
+
+--------------------------------------------------
+
+🖼️ IMAGE SYSTEM (IMPORTANT)
+
+Use Pexels API for dynamic images.
+
+For each region:
+- 1 hero image
+- 3–6 gallery images
+
+Use precise search queries:
+- "AlUla Elephant Rock Saudi Arabia"
+- "Jeddah Red Sea Saudi Arabia"
+- "Qassim dates palm Saudi Arabia"
+- "Asir mountains Saudi Arabia"
+
+Requirements:
+- High quality
+- Cinematic visuals
+- Avoid generic images
+
+Add fallback local images.
+
+Store API key in environment variables (Replit Secrets).
+
+--------------------------------------------------
+
+✨ ANIMATIONS
+
+Use Framer Motion:
+
+- Smooth scrolling
+- Fade + slide + zoom
+- Parallax effects
+- Card hover animations
+- Page transitions
+- Glow effects
+- Micro-interactions
+
+Make animations smooth and premium.
+
+--------------------------------------------------
+
+📱 USER EXPERIENCE
+
+- Fully responsive
+- Mobile-first design
+- Sticky navbar with blur
+- Arabic / English toggle
+- Search and filter system
+- Clean navigation
+
+--------------------------------------------------
+
+🧠 FINAL EXPERIENCE GOAL
+
+The website should feel like:
+- A digital cultural journey
+- A tourism guide
+- An educational platform
+- A futuristic showcase of Saudi Arabia
+
+Tone:
+- Inspiring
+- Emotional
+- Informative
+- Proud
+
+--------------------------------------------------
+
+TECH STACK:
+- React
+- Tailwind CSS
+- Framer Motion
+- Optional Three.js
+
+--------------------------------------------------
+
+IMPORTANT:
+- Prioritize Arabic UI
+- Focus on storytelling
+- Make it visually unforgettable
+- Combine heritage + tourism + modern vision
+ترحيب داخل الصفحة:
+"كل منطقة في المملكة تحمل قصة…
+اكتشفها، عيشها، واجعلها جزءًا من رحلتك."
+🌍 داخل قسم المناطق:
+"من الشمال إلى الجنوب… تتنوع الحكايات وتبقى المملكة وجهة واحدة."
+🧭 داخل ميزة الرحلة:
+"صمّم رحلتك بنفسك… ودع المملكة ترشدك إلى أجمل تجاربها."
+🏆 عند الإنجازات:
+"لقد بدأت رحلتك… وكل خطوة تقرّبك من اكتشاف أعظم."
+

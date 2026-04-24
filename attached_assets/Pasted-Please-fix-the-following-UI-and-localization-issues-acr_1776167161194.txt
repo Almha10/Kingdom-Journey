@@ -1,0 +1,76 @@
+Please fix the following UI and localization issues across the website, especially in the achievements section and all Arabic pages.
+
+1) Arabic grammar and dynamic text formatting
+There is incorrect Arabic text formatting in the achievements progress description. For example, text like:
+"زيارة 0 منطقة 3 رحلة مصممة"
+is grammatically incorrect and hard to read.
+
+Fix it so the sentence is natural, properly ordered, and clearly separated, for example:
+"زيارة 0 منطقة • إنشاء 3 رحلات"
+
+Requirements:
+- Use correct Arabic grammar and natural sentence structure
+- Add separators such as • between dynamic values
+- Ensure numbers are correctly tied to the labels
+- Review all Arabic dynamic text in the website and fix similar issues
+- Make sure labels and values are easy to read and visually balanced
+
+2) Proper Arabic pluralization
+Handle Arabic pluralization correctly for all dynamic counts such as:
+- 1 رحلة
+- 2 رحلتان
+- 3+ رحلات
+Also apply correct pluralization for:
+- منطقة / منطقتان / مناطق
+- إنجاز / إنجازان / إنجازات
+and any other counted Arabic nouns in the UI.
+
+3) RTL layout fixes
+The website is in Arabic, so the UI must fully respect RTL direction.
+
+Fix all RTL issues, including:
+- Text alignment should default to the right in Arabic
+- Spacing and layout should adapt to RTL
+- Buttons, icons, badges, labels, and metadata should align naturally for Arabic users
+- Card content should feel native in Arabic, not like an LTR layout translated into Arabic
+
+4) Achievement cards checkmark position
+The completed checkmark icon is currently placed incorrectly on the left side in Arabic mode.
+Move the completed-state checkmark icon to the top-right corner of the achievement cards in Arabic mode.
+
+Requirements:
+- In Arabic mode, the checkmark should appear in the top-right corner
+- In English mode, it can stay top-left if that matches the layout
+- Use RTL-aware positioning and spacing
+- Ensure all cards are visually consistent
+
+5) Full bilingual behavior
+Make sure the website fully supports both Arabic and English correctly.
+
+Requirements:
+- Arabic mode = RTL layout
+- English mode = LTR layout
+- Layout, alignment, icons, spacing, and text direction must all switch correctly with the language
+- No mixed-direction layout issues
+- Dynamic text should be properly localized in both languages
+
+6) Review the achievements page carefully
+Please review and polish the achievements page so it feels fully professional.
+
+Check and improve:
+- Level title formatting
+- Progress description text
+- Badge card alignment
+- Icon positions
+- Arabic readability
+- Overall spacing and balance
+
+7) Final polish
+After fixing the above issues, make the achievements section feel polished and production-ready:
+- clean spacing
+- better visual hierarchy
+- consistent card alignment
+- professional Arabic typography and RTL presentation
+
+Important:
+Do not only patch one sentence. Review the whole achievements system and all Arabic dynamic text to make the experience fully correct, natural, and polished.
