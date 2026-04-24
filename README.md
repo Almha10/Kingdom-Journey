@@ -3,7 +3,7 @@
 An Arabic interactive travel web app that showcases regions, landmarks, and achievements across Saudi Arabia through a modern visual experience.
 
 ## 🌐 Live Demo
-[View Website](https://kingdom-journey-almha1.replit.app/)
+[View Website]([https://kingdom-journey-almha1.replit.app/](https://kingdom-journey--almha1.replit.app/))
 
 ## 📌 Project Overview
 Kingdom Journey is a web application designed to present Saudi Arabia’s regions in an engaging and interactive way.  
